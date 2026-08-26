@@ -1,5 +1,24 @@
 import perfil_equipo
 
+
+
+#PUNTO 7
+producto = input("Producto: ")
+precio = float(input("Precio unitario: "))
+cantidad = int(input("Cantidad: "))
+total = precio * cantidad
+
+# a) Usando f-string con formato de dos decimales
+print(f"Producto: {producto} | Precio unitario: ${precio:.2f} | Cantidad: {cantidad} | Total: ${total:.2f}")
+
+# b) Usando concatenación con str()
+print("Producto: " + producto + " | Precio unitario: $" + str(precio) + 
+      " | Cantidad: " + str(cantidad) + " | Total: $" + str(total))
+
+
+#PUNTO 8
+
+
 print("REGISTRO DEL EQUIPO")
 
 nombre_equipo = input("Ingrese el nombre del equipo: ")
